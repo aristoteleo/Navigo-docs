@@ -22,7 +22,17 @@ extensions = [
 ]
 
 templates_path = ["_templates"]
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints"]
+exclude_patterns = [
+    "_build",
+    ".git",
+    ".venv*",
+    "README.md",
+    "Thumbs.db",
+    ".DS_Store",
+    "**.ipynb_checkpoints",
+    "tutorials/README.md",
+    "tutorials/resources/knockout/gene_compensation_clean_github/notebooks/01_Limb_Mesenchyme_Pathway_Heatmap_Replication.ipynb",
+]
 
 myst_enable_extensions = [
     "amsmath",

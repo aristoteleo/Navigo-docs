@@ -1,4 +1,5 @@
 _build/
+.venv*/
 .ipynb_checkpoints/
 __pycache__/
 tutorials/outputs/
