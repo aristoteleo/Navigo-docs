@@ -2,4 +2,6 @@ _build/
 .venv*/
 .ipynb_checkpoints/
 __pycache__/
+*.executed.ipynb
 tutorials/outputs/
+tutorials/resources/interpolation/outputs/
